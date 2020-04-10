@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "News App",
+    "slug": "news-app",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/log.png",
+    "splash": {
+      "image": "./assets/log.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}
