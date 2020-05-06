@@ -74,9 +74,7 @@ const DrawerNavigator = createDrawerNavigator({
 {  
     contentOptions:{
         activeTintColor: "indigo" ,
-        labelStyle:{
-            fontFamily:'lobster-bold'
-        }
+       
     },
     contentComponent: props => {
         const dispatch = useDispatch()
